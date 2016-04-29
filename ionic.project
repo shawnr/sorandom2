@@ -1,4 +1,9 @@
 {
   "name": "soRandom2",
-  "app_id": ""
+  "app_id": "",
+  "gulpStartupTasks": [
+      "babel",
+      "sass",
+      "watch"
+    ]
 }
