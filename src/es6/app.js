@@ -6,6 +6,7 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('soRandom', [
   'ionic',
+  'ngStorage',
   'soRandom.mainController',
   'soRandom.storyViewerController'
 
@@ -38,7 +39,7 @@ angular.module('soRandom', [
   })
 
   .state('app.storyViewer', {
-    url: '/viewer/:storySlug',
+    url: '/viewer/:storySlug/:currPage',
     views: {
       'menuContent': {
         templateUrl: 'templates/storyViewer.html',
@@ -47,5 +48,5 @@ angular.module('soRandom', [
     }
   });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/viewer/soRandom');
+  $urlRouterProvider.otherwise('/app/viewer/soRandom/');
 });

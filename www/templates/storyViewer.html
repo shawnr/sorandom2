@@ -1,8 +1,22 @@
 <ion-view view-title="{{storyData.title}}">
   <ion-content>
-    <div class="card">
-      <div class="item item-text-wrap">
-        {{storyData.text.paragraphs.julian[1].text}}
+    <div class="item item-text-wrap"><!-- Pagination -->
+        <button class="button button-dark"
+                ng-click="prevPage()"
+                ng-if="currPage > 1">Previous</button>
+        &nbsp;
+        <button
+                ng-repeat="(key,value) in pageArray track by $index"
+                class="button button-dark"
+                ng-click="goPage(key+1)">{{key+1}}</button>
+        &nbsp;
+        <button class="button button-dark"
+                ng-click="nextPage()"
+                ng-if="currPage < storyData.numPages">Next</button>
+    </div>
+    <div class="card" ng-repeat="par in pageData.paragraphs">
+      <div  class="item item-text-wrap" ng-click="goTangentPage(par.keyword)">
+        {{par.text}}
       </div>
     </div>
   </ion-content>

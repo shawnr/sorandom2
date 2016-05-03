@@ -5,7 +5,9 @@ angular.module('soRandom').factory('storyData', function(){
     soRandom: {
         title: "So Random",
         text: soRandomText,
+        storySlug: 'soRandom',
         numParagraphs: 12,
+        numPages: 3,
         perPage: 4
     }
   };
@@ -183,167 +185,167 @@ var soRandomText = {
       }
    },
    "tangents":{
-      "bus":{
-         "julian":{
+      "bus":[
+         {
             "text":"Some mornings start out real cold and you almost can't stand to open that door. I tell you, some mornings I'm just huddled up with a blanket wrapped around me in the seat. If I'm driving one of the replacement units, I gotta bring my little heater, too. It gets cold sometimes.",
             "narr":"julian"
          },
-         "julian1":{
+         {
             "text":"When I was a boy, I rode the bus to school, too. Back then it didn't cost no dollar fifty though. It was like a quarter. And we'd ride to school, then on the way home we'd transfer and head down to the river. In the warm weather we'd swim and fish, or in the winter we'd burn stuff in the little houses on the coast guard island. We never saw no coast guards.",
             "narr":"julian"
          },
-         "conchita":{
+         {
             "text":"Once when Papi and I were waiting for the bus after he took me shopping on Elmwood for a new purse for my birthday, we were sitting on bench. I remember Papi looked so old at that moment, and for a second I thought he might be having a heart attack or some gas or something because his face screwed up all weird.",
             "narr":"conchita"
          },
-         "theresa":{
+         {
             "text":"I remember the first time I rode the goddamned bus. I had to go across town so I could go to school at Holy Angels because my mama figured nobody ever got a good education at a public school, and she wouldn't have us in there after grade school. It was fun at first, riding the bus to school, like we were allowed to have some fucking control over our lives. We could go anywhere, and it was our choice to go to school each day.",
             "narr":"theresa"
          },
-         "theresa1":{
+         {
             "text":"My first boyfriend felt me up for the first time on the bus. No shittin'. We would hike up our skirts extra high when we got out of class, and we'd show off for the boys when we got on the bus.",
             "narr":"theresa"
          }
-      },
-      "girl":{
-         "julian":{
+      ],
+      "girl":[
+         {
             "text":"The teenage girl rides the bus every day. I see her all the time. Her parents are nice folks who live out in Riverside. She gets on and has her headphones up so high everyone else can hear the music. Half the time she puts her pass backwards through the card swipe and don't even notice it don't beep. I figure it ain't worth it to hassle her about it.",
             "narr":"julian"
          },
-         "conchita":{
+         {
             "text":"I think some of the most meaningful moments in my life have been accompanied by music. It's like as if I'm just in tune to the rhythm or something. Like if I'm angry and I listen to an angry song, then I, like, work it out through that, you know? Or if I'm trying to, you know, chill out and just be kind of zen then I have to get some kind of mellow music going on. I think I'm just like seriously in-tune with the musical wavelength.",
             "narr":"conchita"
          },
-         "theresa":{
+         {
             "text":"I used to work with this Latino gal at the hospital looked a lot like that girl there. She wore these big hoop earrings said 'Jennie' across them.",
             "narr":"theresa"
          },
-         "theresa1":{
+         {
             "text":"I remember riding out to the hospital on the bus after school to visit Janie, and I'd see the Yellow Jacket in the parking lot. It would be sitting there like a beacon, shining in the middle of the parking lot. Mama saw the Yellow Jacket from the bus once, sittin in the hospital parking lot, when Janie weren't sick at all. ",
             "narr":"theresa"
          }
-      },
-      "hurt":{
-         "julian":{
+      ],
+      "hurt":[
+         {
             "text":"One time we were burning this fire in a house and one of my buddies had brought this roman candle with him. He was gonna shoot it out the window from the couch we were sitting on. We had played with roman candles out on the islands a lot. They were weak fireworks, usually, but not this time. The first blast came out of that thing like a canon shot, and this ball of green-blue fire got caught up in the curtain, which pretty much right then just melted to the floor, catching the carpet on fire, then crawling up the walls.",
             "narr":"julian"
          },
-         "julian1":{
+         {
             "text":"The roman candle was still shooting. Five shots in total. It was a crazy situation. My buddy wanted to drop the candle, but he was afraid it would spin around and shoot him. We ran to the doorway and screamed for him to toss it in the fireplace. We all got out OK, but that house burnt down.",
             "narr":"julian"
          },
-         "julian2":{
+         {
             "text":"After we burned down the one house, my buddies started thinking it would be fun to just load a house up with as many fireworks as possible and then set it off. So they did that. Then they got gallons and gallons of gasoline and turned another of the cabins into a giant bomb/bonfire. That time, the cabin really blew up some, and a random splinter of wood hit my friend, the one who had brought that first roman candle, in the ear. He went deaf and I don't know what else. I kind of fell away from those guys after awhile.",
             "narr":"julian"
          },
-         "conchita":{
+         {
             "text":"It was so sad. Jimmy didn't even get a cast because of how small his fracture was, but it totally hurt way more than that. I like helped out with the pain by giving him a back and shoulder rub while I played him some Enya in the background from the LotR soundtrack. I think it was, like, totally soothing.",
             "narr":"conchita"
          },
-         "theresa":{
+         {
             "text":"Janie was sick a lot. She had asthma and had to stay home a lot. Mama stayed home to take care of her, or sometimes my aunt would come in from Niagara Falls. She would always make us take her down to the Italian restaurant on the corner which used to be owned by mobsters, I think.",
             "narr":"theresa"
          }
-      },
-      "home":{
-         "julian":{
+      ],
+      "home":[
+         {
             "text":"Chuckie don't ever cause no problems. For the most part. Sometimes if he's not sure where he's going he can worry a bunch. And he takes a new route map every day. I ask him, 'Chuckie, what are you doing with all them route maps? You must have a million of them at home!' But I guess he loses them pretty much every day, too. I think he takes usually two buses to get to his job at the Goodwill, and who knows what else in between that or where else he goes. I don't know. All I know is he loves to ride the bus, and it's OK to have him in the co-pilot. At least I know he don't want nothing from me.",
             "narr":"julian"
          },
-         "conchita":{
+         {
             "text":"Papi looked at me and asked me if I missed my mother. I said I did sometimes. He said, 'Well, you know that you are as old now as she was when we found out you were coming.'  I knew that. I never met her, I mean, not that I remember, but Papi and Mami have told me about her. About how she looks like me. About how she thought she knew everything and if she wanted to she could have been a great woman like Madame Curie or Eva Peron.",
             "narr":"conchita"
          },
-         "theresa":{
+         {
             "text":"That day Mama caught him with the nurse from the Pediatrics wing, he came home late that night. We didn't see him until the next day after school. And in the morning, when we leave for school, we notice the Yellow Jacket is gone. Never saw that fucking car ever again.",
             "narr":"theresa"
          },
-         "theresa1":{
+         {
             "text":"One day we came home and Daddy was gone, too. He left us a note and Mama said it was for the best. He just up and left. There weren't no reason for it. It was just out of the blue.",
             "narr":"theresa"
          }
-      },
-      "work":{
-         "julian":{
+      ],
+      "work":[
+         {
             "text":"One time I was working the night shift and that teenage girl was riding on the bus. She was with this big old hockey player type guy who kept sucking on her neck. She would giggle and tell him to stop, and I could tell there was some kind of something else going on, too.",
             "narr":"julian"
          },
-         "conchita":{
+         {
             "text":"I got my first pair of headphones when I was 12. My Papi said that he thought I deserved to have my own headphones if I was going to ride the bus to school next year. I had to go across town because if I was going to get into City Honors I had to go to the best school in the city to prepare. And if that meant riding the bus for an hour each way, then that was OK with my Papi.",
             "narr":"conchita"
          },
-         "theresa":{
+         {
             "text":"Once I was riding the bus, and this old man was on the bus. He started hacking and coughing and I thought he was going to eventually throw up or something, you know, it was real deep down inside him like that. And then I got to the hospital and I'm doing my rounds, and I walk into a room and there he is, the same motherfucker. He rode the bus to the hospital because he thought the ambulance was too expensive.",
             "narr":"theresa"
          },
-         "theresa1":{
+         {
             "text":"I hate being a nurse. I got pregnant when I was 17, and I didn't have much choice about what to do. I made it through nursing school and that has been a decent living. But I hate it. I hate working with sick people. Disgusting nastiness. I'm just so sad all the time after I get home.",
             "narr":"theresa"
          }
-      },
-      "localcolor":{
-         "julian":{
+      ],
+      "localcolor":[
+         {
             "text":"We get past Niagara and go onto Vulcan proper and past all of the factories and some rundown taverns and pizza parlors. There used to be three pizza parlors and two bars on every corner, plus a liquor shop downstairs. I don't know. I suppose people might feel worse about things, except that nobody I know remembers when this area was doing any good. As far as I know, though, Riverside ain't the worst off. I seen worse on the Lower West Side. Can't say why some of these places go to hell and others stay OK even still.",
             "narr":"julian"
          },
-         "conchita":{
+         {
             "text":"Once we were eating at the Manhatten Bagel on Elmwood and this homeless guy was, like, trying to perform for money outside the window where we were eating. He had this Freddy Krueger mask and was like sneaking up on people walking by. It was a beautiful day, so lots of people were out. He'd walk too close to them or hold their hand and they'd freak out. We kept thinking somebody would punch his lights out. He tried to beg some money off us, but we didn't have any. We never saw him again. It was, like, so totally random.",
             "narr":"conchita"
          },
-         "theresa":{
+         {
             "text":"I cracked my teeth once on the curb one winter. I was running to catch the bus and I slipped on some fucking ice that I didn't see. It had gotten real warm that week, and everywhere there were big puddles where the snow used to be. Then over night it froze and the next morning there were spots where the ice was thin as paper and slick as snot.",
             "narr":"theresa"
          }
-      },
-      "random":{
-         "julian":{
+      ],
+      "random":[
+         {
             "text":"I remember the first time Chuckie got on my bus. He called me the DustBriver. I have no idea why. I told him to call me Julian. So that's what he calls me now.",
             "narr":"julian"
          },
-         "julian1":{
+         {
             "text":"Kenmore's got better bowling alleys than schools. I heard we might have a decent hockey team at the Boys' Club this year. Everyone heads down to the rink in the winter time, but I'm not so much for it. All that rowdiness and drinking. I went once and saw this kid, musta been about 12, bite off his lower lip getting all smashed up against the glass. I could see his teeth just dig into the flesh, and then blood exploded like he just laughed Kool Aid out his nose.",
             "narr":"julian"
          },
-         "conchita":{
+         {
             "text":"I got Jimmy a card after he found out he'd have to sit out on the game. I made it in the computer and it had a picture of a kitten, all bandaged up and with a little crutch propped up next to him and a football laying at his feet, on the front and on the inside it said, \"Can't wait to have you back on the field, Tiger!\" We passed it around the school, and I signed it first, but by the time it got to Jimmy my signature was, like, totally unreadable and some slut wrote her phone number in it. Jimmy said it was OK and he knew it was from me. He's super sweet.",
             "narr":"conchita"
          },
-         "theresa":{
+         {
             "text":"When I was a kid, my daddy drove a 1964 Chevy Impala that he painted bright yellow. It was the Yellow Jacket, that's what he called it. He was forever out with the Jacket working on it or cleaning it or just listening to the game on the car radio. That car helped make my daddy a big man in the neighborhood, and we all loved that car. The back seat was so big, I remember, I could lay all the way out and sleep when my sister wasn't with us.",
             "narr":"theresa"
          },
-         "theresa1":{
+         {
             "text":"I hate two things more than anything else in the world: blood and crap. I've had three kids and been a nurse for almost 30 years. I've seen too much blood and crap.",
             "narr":"theresa"
          }
-      },
-      "reality":{
-         "julian":{
+      ],
+      "reality":[
+         {
             "text":"Once this other retarded girl got on the bus. She was kind of fat, and I had to drop the bus so she could step up the first step. I don't mind helping out like that. But even though she was kind of retarded, she wasn't ugly. You know, her head was kind of funny shaped and she didn't really look directly at me, but I noticed she looked at Chuckie when she walked by. And he looked like he might have known her. I tried to get him to ask her out but he wouldn't. He said she wouldn't go out with him. And I said you never know. 'Every dog has his day,' I said, 'It might happen.'",
             "narr":"julian"
          },
-         "conchita":{
+         {
             "text":"Papi told me my mother had gone away to take a job. That's what he said at first. That she was so sorry she had to leave, but she would eventually maybe come back. I kept hoping for that. And I guess I still would be, except we heard like a couple years after that how she had been found in a squatter house in Niagara Falls. And it wasn't really so sad that she was dead, I mean, she wasn't ever around. But, like, what really weirds me out was thinking how I could have just taken the bus out to meet her anytime. I mean, if I had been old enough to take the bus back then.",
             "narr":"conchita"
          },
-         "theresa":{
+         {
             "text":"I got no patience for hobos, bums, crackheads, panhandlers, or generally human annoyances. I saw one time, on the bus, this group of boys roll these two crackheads who kept hasselling them for money. Eventually they pissed off these kids, and they just turned out their pockets. They threw their shitty cigarettes and their crackpipes or whatever out the window, and they might have each taken a couple licks for fun. It was a fucking strange thing to witness. I mean, I wasn't sure what to do, but there was so many of them boys. I couldn't get involved. In the end them crackheads didn't seem much worse for the wear.",
             "narr":"theresa"
          }
-      },
-      "fiction":{
-         "julian":{
+      ],
+      "fiction":[
+         {
             "text":"The folks who sit in the co-pilot seat are usually pretty needy. Crazy folks, crackheads looking for transfer money, horny ladies after the busdriver. Oh yeah, I get that all the time. Well, I used to get it more, but you never know. I mean, I'm not much of one to flirt with any of them. I know that if they do it to me, they do it to every busdriver they ride with.",
             "narr":"julian"
          },
-         "conchita":{
+         {
             "text":"'Conchita.' \n\nHe looked at me and made it feel like this was a real serious moment, and he said, 'You know better, right? You will not go to fast. You are a smart girl.'",
             "narr":"conchita"
          },
-         "theresa":{
+         {
             "text":"I didn't do well in my nursing classes. I was usually tired from working the night shift at American Brass. Now that was a shitty job. At least nursing is better than that crap. Oh, it would drive me crazy, pulling the same lever, making a million little things that don't look like nothing. You know, like fucking eyelets for your sneakers and whatnot.",
             "narr":"theresa"
          }
-      }
+      ]
    }
 };
